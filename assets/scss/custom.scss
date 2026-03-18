@@ -1,0 +1,32 @@
+// 全站内容区加宽
+.page-body {
+  max-width: 1200px !important;
+  margin: 0 auto;
+}
+
+.page-body .container {
+  max-width: 1100px !important;
+}
+
+// 首页各区块加宽
+.hb-section .container {
+  max-width: 1100px !important;
+}
+
+// 论文列表加宽
+.article-container {
+  max-width: 1100px !important;
+}
+
+// markdown 区块（Completed Papers, WIP, Team 等）
+.hb-markdown .col-12,
+.hb-collection .col-12 {
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
+// 导航栏名字加大
+.navbar-brand {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+}

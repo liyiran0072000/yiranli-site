@@ -1,0 +1,35 @@
+/* 全站容器宽度 */
+.container {
+  max-width: 1100px !important;
+}
+
+/* 列宽打满容器 */
+.col-lg-8, .col-md-8, .col-xl-8 {
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
+/* 导航栏名字 */
+.navbar-brand {
+  font-size: 2rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.02em;
+}
+
+/* prose 宽度跟 Publications 对齐 */
+.prose, .hb-markdown .prose, .max-w-prose, [class*="prose"] {
+  max-width: 850ch !important;
+}
+
+/* markdown 区块字体跟 publication 一致 */
+.hb-markdown .prose li {
+  font-size: 0.95rem !important;
+  line-height: 1.6 !important;
+  margin-bottom: 0.75rem !important;
+}
+
+/* 减少区块间空白 */
+.hb-section {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
