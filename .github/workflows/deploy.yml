@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true
+          fetch-depth: 0
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -20,14 +20,21 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           package_json_path: ./package.json
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.23'
       - name: Install dependencies
         run: pnpm install
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: latest
+          hugo-version: '0.156.0'
           extended: true
       - name: Build
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
         run: hugo --minify
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
