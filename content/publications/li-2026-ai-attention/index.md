@@ -1,8 +1,8 @@
 ---
 title: "Artificial Intelligence and Punctuated Equilibrium: Shaping Government Attention in the Digital Age"
 authors:
-  - Shuo Chen
   - me
+  - Shuo Chen
   - Yuzheng Wang
 date: "2026-10-02"
 publication_types: ["article-journal"]
