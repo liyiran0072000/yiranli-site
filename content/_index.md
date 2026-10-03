@@ -13,6 +13,8 @@ sections:
   - block: collection
     content:
       title: Publications
+      sort_by: Date
+      sort_ascending: false
       text: "" 
       count: 0
       filters:
