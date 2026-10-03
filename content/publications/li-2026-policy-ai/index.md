@@ -13,6 +13,10 @@ links:
     url: https://www.elgaronline.com/edcollchap/book/9781035346073/chapter3.xml
 aliases:
   - /workingpapers/wip-policy-ai/
+image:
+  caption: "Original thematic illustration of policy instrument portfolios supporting AI development."
+  focal_point: Center
+  preview_only: false
 ---
 
 Published in *The Elgar Companion to Artificial Intelligence Governance: Exploring the Public Policy and Legal Landscape*, edited by Yanto Chandra, Michael Tsimplis, and Naikang Feng (Edward Elgar Publishing, 2026), Chapter 3.
